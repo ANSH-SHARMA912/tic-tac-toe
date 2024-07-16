@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.heading{
+    height: 10  vh;
+    background-color: aquamarine;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game
+{
+    text-align: center;
+    height: 60vh;
+    width: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+
+}
+.box{
+    height:20vh ;
+    width: 20vh;
+    background-color: rgb(188, 154, 219);
+    margin: 0.5vh;
+    font-size: 10vh;
+}
+button:hover{
+    background-color: rgba(174, 155, 191, 0.786);
+}
+.reset{
+    padding: 2vh;
+    font-size: 2vh;
+}
+.winner{
+    font-size: 7vh;
+    font-weight: 600;
+}
